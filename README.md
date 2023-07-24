@@ -8,5 +8,5 @@ Each folder contains 3 examples: sequential_example512.jl, parallel_example512.j
 Using Laplace as an example, to run the code, do:
 
 ```
-julia sequential_example512.jl
+username:> julia sequential_example512.jl
 ```
