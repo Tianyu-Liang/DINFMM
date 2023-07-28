@@ -17,3 +17,6 @@ Using Laplace as an example, to run the code, do:
 ```
 username:> julia sequential_example512.jl
 ```
+
+
+**Important note: Running the algorithm with multiple processes requires that each process must contain at least 4 boxes. Otherwise the behavior is undefined.**
