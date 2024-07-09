@@ -111,6 +111,7 @@ end
 include("optimize_communication.jl")
 
 
+# TODO
 # build the tree data structure
 @everywhere function create_tree(coordinate_range::Array{T, 1}, worker_id::Int64, layer::Int64, max_layer::Int64, probes_length::Int64) where T <: AbstractFloat
     box_per = BOXES_PER_NODE
